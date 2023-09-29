@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
   <title>Language Translation Tool</title>
 </head>
 <body>
   <h1>Language Translation Tool</h1>
-  <label for="text">Enter Text:</label>
-  <input type="text" id="text" placeholder="Enter text to translate">
-  <label for="target-language">Target Language:</label>
-  <select id="target-language">
-    <!-- Add language options here -->
-  </select>
+  <div id="input-css">
+    
+      <label for="text">Enter Text:</label>
+      <input type="text" id="text" placeholder="Enter text to translate">
+  </div>
+  <div id="lang-css">
+      <label for="target-language">Target Language:</label>
+      <select id="target-language">
+        <!-- Add language options here -->
+        <option value=1>Hindi</option>
+        <option value=2>bengali</option>
+        
+      </select>
+
+  </div>
   <button id="translate-button">Translate</button>
   <div id="translation-result"></div>
   <script src="script.js"></script>
