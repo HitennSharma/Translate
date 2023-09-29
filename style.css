@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 3px;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.603) ;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#input-css{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+#input-css input{
+  height: 1.5rem;
+  font-size: 1.5rem;
+}
+#lang-css{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+#lang-css{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+button{
+  border-color: white;
+  border-top-color: red;
+  border-left-color: red;
+}
+button:active{
+  border-color: red;
+  border-top-color: white;
+  border-left-color: white;
+}
+#translate-button{
+height: 1.5rem;
+}
